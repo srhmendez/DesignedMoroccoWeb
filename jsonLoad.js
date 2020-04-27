@@ -182,7 +182,7 @@ window.onload = function main() {
     userName.textContent = jsonObj.userName
 
     var userLink = document.getElementById("userLink")
-    userLink.innerHTML = '<a href="' + jsonObj.userShopLink + '">Link to my store</a>'
+    userLink.innerHTML = '<a href="' + jsonObj.userShopLink + '">Browse Store</a>'
 
     span.addEventListener("click", function() {
         modal.style.display = "none"

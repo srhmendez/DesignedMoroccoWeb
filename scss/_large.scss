@@ -99,13 +99,13 @@ div.column {
 }
 
 #userLink {
-    font-size: 175%;
+    font-size: 125%;
     padding-top: 5%;
     padding-left:25%;
 }
 
 #userText {
-    font-size: 180%;
+    font-size: 130%;
     padding-right: 10%;
     padding-top: .75%;
     padding-left:26%;
@@ -117,7 +117,7 @@ header {
 }
 #userHeader {
     padding-bottom: 3%;
-    padding-left: 5%;
+    padding-left: 10%;
     padding-top: 8%;
     border-bottom: solid 3px #e4eaf5;
     max-width:1300px;
@@ -236,6 +236,7 @@ header {
 #cFormat {
     margin-left: 10%;
     font-family: "Biko-std";
+    font-size: 70%;
     margin-bottom:1.2rem;
 }
 div#userLink {
@@ -246,7 +247,8 @@ div#userLink {
 #link {
     border-top: solid 2px #e4eaf5;
     text-align: center;
-    padding-top:0;
+    justify-content:flex-end;
+    margin-top:34.5%;
     height:auto;
 }
 div#link a {
@@ -268,9 +270,10 @@ div#link a {
 }
 p#tFormat {
     font-family:"Biko-std";
+    font-size:80%;
 }
 div#myModal.modal {
-    padding-top:20.9%;
+    padding-top:1.9%;
 }
 div#userName {
     font-family: "Biko-black";
@@ -278,7 +281,8 @@ div#userName {
     padding-bottom:0%;
 }
 span.close {
-    margin-top:12%; 
+    color:$menuColor;
+    margin-top:.2%; 
     padding-top:.8%;   
-    padding-right:5.5%;
+    padding-right:7%;
 }

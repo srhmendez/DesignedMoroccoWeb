@@ -95,6 +95,7 @@ div#userHeader {
     padding-right:2%;
 }
 
+
 //BUTTON STYLING FOR USER LINKS
 
 div#userLink a{
@@ -225,9 +226,9 @@ div#userImg {
 }
 #mpDiv {
     /*Foreground Container*/
-    margin-top: 20%;
+    margin-top: 1%;
     width: 100%;
-    max-height: 180%;
+    max-height: 100vh;
     background-color:white;
     display: flex;
     border-radius: 1px;
@@ -237,14 +238,14 @@ div#userImg {
 #userDiv {
     display: flex;
     flex-direction: row;
-    font-weight: bold;
+    font-size:60%;
     padding-left: 0;
     padding-top: 3%;
     border-bottom: solid 2px #e4eaf5;
 }
 
 #userName {
-    padding-top: 20%;
+    padding-top: 10%;
     width:100%;
     text-align:center;
     color:$menuColor;
@@ -255,7 +256,7 @@ div#userImg {
 #mImg {
     margin:0 auto;
     height: auto;
-    width: 86%;
+    width:60%;
     border-radius: 2;
     margin-top: -3%;
 }
@@ -267,8 +268,8 @@ div#userImg {
 
 #content {
     margin-top: 4%;
-    padding-left: 7%;
-    padding-left: 0%;
+    padding-left: 3%;
+    padding-right: 3%;
     width:100%;
     text-align:center;
     border-bottom: solid 2px #e4eaf5;
@@ -276,14 +277,14 @@ div#userImg {
 }
 
 #link {
-    padding-top: 4%;
+    padding-top: 0%;
     text-align: center;
     padding-bottom: 4%;
 }
 span.close {
     padding-left:100%;
     font-size:120%;
-    margin-top:16%;
+    margin-top:-5%;
     margin-right:1%;
     color: $menuColor;
     width:100%;
@@ -294,7 +295,7 @@ p#tFormat {
     color: $menuColor;
     font-family: "Biko-std";
     margin-top:4%;
-    font-size:70%;
+    font-size:40%;
 }
 
 div#cFormat{
@@ -302,8 +303,9 @@ div#cFormat{
     padding:0;
     padding-left:0;
     margin:0 auto;
-    font-size:60%;
+    font-size:35%;
     padding: 0 2%;
+    width:100%;
 }
 div#lFormat {
     margin-bottom:2rem;
@@ -317,7 +319,7 @@ div#lFormat a{
     color:$menuColor;
     font-family: "Biko-std";
     box-shadow: $menuColor 5px 4px 3px;
-    font-size:70%;
+    font-size:40%;
     margin-bottom:1rem;
 }
 
