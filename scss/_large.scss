@@ -1,0 +1,179 @@
+
+/*Header CSS Rules For Large Screens*/
+
+header {
+    height:22rem;
+}
+.headertxt h2, p {
+
+    font-family: "Biko-black";
+    
+}
+
+div.logoContainer {
+    padding-top:3rem;
+}
+
+div.headertxt {
+    max-width:40%;
+    margin:0 auto;
+}
+ul#primaryNav li a {
+    font-family: "Biko-black";
+
+}
+
+
+/*Navigation CSS For Large Screens*/
+
+#hamburgerBtn {
+    display:none;
+}
+
+nav.clearfix {
+    display:block;
+    width:100%;
+    background: $menuColor;
+
+    ul#primaryNav {
+        width:100%;
+        max-width:1000px;
+        margin:0 auto;
+        padding:0;
+        display:flex;
+        list-style-type: none;
+        
+        li {
+            width:15%;
+            text-align: center;
+            padding:.8rem;
+
+            a {
+                color: $white;
+                padding:.8rem;
+                font-size: 1.4rem;
+                text-decoration: none;
+            }
+        }
+        li:hover {
+            background-color:$lightGrey;
+        }
+    }
+}
+
+
+
+/* Photo Div Gallery */
+
+div#Photos {
+    padding-top:4rem;
+    max-width:910px;
+    margin:0 auto;
+    row-gap:2%;
+}
+
+.row { 
+    justify-content: space-between;
+
+}
+
+
+div.column {
+    padding:0;
+    max-width:300px;
+    img {
+        margin:auto 0;
+    }
+}
+
+
+
+/* Modal Styling */
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 5px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 60px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/*Background container*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 3%; /* Location of the box */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(10, 10, 10, 0.5); /* Black w/ opacity */
+    max-height: 100%;
+    font-size: x-large;
+}
+#mpDiv {
+    /*Foreground Container*/
+    width: 75%;
+    height: 85%;
+    background-color: white;
+    display: flex;
+    margin-left: 12%;
+    border-radius: 1px;
+}
+
+#mImg {
+    height: 100%;
+    width: auto;
+}
+
+#mContain {
+    margin-top: 3%;
+    flex-grow: 100;
+    flex-direction: column;
+}
+
+#userDiv {
+    display: flex;
+    font-weight: bold;
+    border-bottom: solid 2px #e4eaf5;
+    padding-bottom: 6%;
+}
+
+#userName {
+    margin-left: 3%;
+    margin-top: 2.5%;
+}
+
+#icon {
+    margin-left: 10%;
+    max-height: 45px;
+    max-width: 45px;
+}
+
+#title {
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+#content {
+    padding-right: 5%;
+    height: 55%;
+}
+
+#cFormat {
+    margin-left: 10%;
+}
+
+#link {
+    border-top: solid 2px #e4eaf5;
+    text-align: center;
+}
+
+#lFormat {
+    display: inline-block;
+    margin-top: 3%;
+}
