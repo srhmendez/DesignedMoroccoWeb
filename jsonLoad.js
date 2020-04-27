@@ -1,8 +1,9 @@
+  
 var jsonObj = {
-    "userName": "Test User",
-    "photoLink": "link to file upload or local",
-    "description": "This is a test user. Testing obj loading",
-    "userShopLink": "www.google.com",
+    "userName": "Aisha Ait Issa",
+    "photoLink": "https://res.cloudinary.com/hork5h8x1/image/upload/seller111_ilkartisan_rank8_time1461865172.jpg",
+    "description": "I joined the cooperative to support my children so they can succeed in their lives.",
+    "userShopLink": "https://www.theanou.com/store/111-coop-ihkf-n-ighir-bougmaz-morocco",
     "icons": [
         {
             "title": "first icon title",
@@ -112,7 +113,7 @@ var jsonObj = {
 window.onload = function main() {
     var numPhotos = jsonObj.photos.length
     var rem = numPhotos % 3
-    var rows = Math.floor(numPhotos/1)
+    var rows = Math.floor(numPhotos/3)
     rem > 0 ? rows++ : 0
 
     //Debug
@@ -120,6 +121,8 @@ window.onload = function main() {
     //console.log("Rows: " + rows)
 
     var photoDiv = document.getElementById("Photos")
+    var userImg = document.getElementById("userImg")
+    userImg.style.backgroundImage = 'url("' + jsonObj.photoLink + '")'
 
     var containerStr = ""
     var photoStr = ""
@@ -155,6 +158,15 @@ window.onload = function main() {
     var modal = document.getElementById("myModal")
     var span = document.getElementsByClassName("close")[0]
 
+    var userText = document.getElementById("userText")
+    userText.textContent = jsonObj.description
+
+    var userName = document.getElementById("user_name")
+    userName.textContent = jsonObj.userName
+
+    var userLink = document.getElementById("userLink")
+    userLink.innerHTML = '<a href="' + jsonObj.userShopLink + '">Link to my store</a>'
+
     span.addEventListener("click", function() {
         modal.style.display = "none"
         //turn back on scroll bar
@@ -169,25 +181,25 @@ window.onload = function main() {
             var title = element.alt
             var link = element.getAttribute("data-shopLink")
             var content = element.getAttribute("data-content")
-
+            
             //set modal window here!
             modal.style.display = "block"
             
             //set content
             var userStr = '<div id="userDiv">' + 
-                '<img id="icon" src="images/Logo200.png">' +
+                '<div id="icon"></div>' +
                  '<div id="userName">' + jsonObj.userName + '</div>' + '</div>'
             var imgStr = '<img id="mImg" src="' + src + '">'
             var titleStr = '<div id="title"><p id="tFormat">' + title + '</p></div>'
             var contentStr = '<div id="content"><div id="cFormat">' +  content + '</div></div>'
-            var linkStr = '<div id="link"><div id="lFormat"><a href="' + link + '">Click here to goto shop</a></div></div>'
+            var linkStr = '<div id="link"><div id="lFormat"><a href="' + link + '">Purchase</a></div></div>'
 
             //Check media sizes
             var modalWin = document.getElementById("mpDiv")
-            var small;
-            var medium = window.matchMedia("(max-width: 999px")
+            var small = window.matchMedia("(max-width: 999px")
+            var medium;
             var large = window.matchMedia("(min-width: 1000px)")
-            if (medium.matches) {
+            if (small.matches) {
                 //if medium:
                 // [icon] Username
                 //   Title

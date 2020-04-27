@@ -1,3 +1,14 @@
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+//Hamburger button is hidden on screens larger than 65 rem or 1040px
+
+#hamburgerBtn { 
+    display: hidden; 
+
+} /* hide the navigation button for all screen widths. We will show it below just for small screens */
+
+
 
 //FONT FAMILY CSS
 
@@ -28,6 +39,7 @@
 
 /* FONT STYLING FOR SMALL SCREENS*/
 
+
 @media only screen and (max-width: 450px) {
 //This media query is to allow the .headertxt div to be 100% width on...
 //screens under 450 pixels 
@@ -41,8 +53,264 @@
 .headertxt p {
     font-family: "Bembo-black";
 }
-} //End of media Query for small screens
+} //End of media Query for FONT STYLING for small screens
 
+
+
+
+/* Styling for the Dynamic Photo Div (Carries across all Style Sheets)*/
+header {
+    height:auto;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.column {
+    flex: 33.33%;
+    padding: 1%;
+}
+
+#Photos {
+    width: 98%;
+    margin: 1% auto;
+    row-gap:.5%;
+}
+.image {
+    cursor: pointer;
+    max-width: 300px;
+    max-height: 300px;
+    height: auto;
+}
+.image:hover, .close:hover {
+    opacity: 0.7;
+}
+
+div#userHeader {
+    font-family: "Biko-std";
+}
+
+//BUTTON STYLING FOR USER LINKS
+
+div#userLink a{
+    text-decoration: none;
+    background:white;
+    border: $lightGrey solid 1px;
+    padding:.5rem 1rem;
+    border-radius:6px;
+    color:$menuColor;
+    font-family: "Biko-std";
+    box-shadow: $lightGrey 5px 4px 3px;
+
+}
+div#userImg {
+    box-shadow: $menuColor 3px 3px 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px){   
+
+
+/*    MODAL & USER INFORMATION CSS RULES    */
+
+
+//------------------------------------------------------------------
+
+//------------------------------------------------------------------
+
+#user_name {
+    font-weight: bold;
+    font-family: "Biko-black";
+    font-size: 200%;
+    text-align: center;
+    margin-top:8%;
+}
+
+#userLink {
+    margin:0 auto;
+    font-size: 175%;
+    padding-top: 5%;
+    padding-left: 0%;
+    margin-bottom:5%;
+}
+#userLink a {
+    font-size: 80%;
+}
+
+#userText {
+    font-size: 130%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    text-align:center;
+}
+
+#userHeader {
+    height:auto;
+    padding-bottom: 3%;
+    padding-left: 0%;
+    padding-top: 25%;
+    border-bottom: solid 3px #e4eaf5;
+    display:flex;
+    flex-direction: column;
+}
+
+
+#Photos {
+    width: 100%;
+    margin: auto;
+    padding-top: 1%;
+}   
+
+#userImg {
+    margin:0 auto;
+    padding-top:30%;
+    border-radius:50%;  
+    height: 200px;
+    width: 200px;
+    background-position: center;
+}  
+
+#icon {
+    border-radius: 50%;
+    max-width: 100px;
+    max-height: 100px;
+    margin-bottom: 5%;
+    background-position: center;
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 30px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 125px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*Background container*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(10, 10, 10, 0.5); /* Black w/ opacity */
+    max-height: 100%;
+    font-size: 30pt;
+    overflow-y: auto;
+}
+#mpDiv {
+    /*Foreground Container*/
+    margin-top: 20%;
+    width: 100%;
+    max-height: 180%;
+    background-color:white;
+    display: flex;
+    border-radius: 1px;
+    flex-direction: column;
+}
+
+#userDiv {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    padding-left: 0;
+    padding-top: 3%;
+    border-bottom: solid 2px #e4eaf5;
+}
+
+#userName {
+    padding-top: 20%;
+    width:100%;
+    text-align:center;
+    color:$menuColor;
+    font-family: "Biko-black";
+}
+
+
+#mImg {
+    margin:0 auto;
+    height: auto;
+    width: 86%;
+    border-radius: 2;
+    margin-top: -3%;
+}
+
+#title {
+    margin-top: -3%;
+    text-align: center;
+}
+
+#content {
+    margin-top: 4%;
+    padding-left: 7%;
+    padding-left: 0%;
+    width:100%;
+    text-align:center;
+    border-bottom: solid 2px #e4eaf5;
+    padding-bottom: 4%;
+}
+
+#link {
+    padding-top: 4%;
+    text-align: center;
+    padding-bottom: 4%;
+}
+span.close {
+    padding-left:100%;
+    font-size:120%;
+    margin-top:16%;
+    margin-right:1%;
+    color: $menuColor;
+    width:100%;
+    text-align:right;
+}
+
+p#tFormat {
+    color: $menuColor;
+    font-family: "Biko-std";
+    margin-top:4%;
+    font-size:70%;
+}
+
+div#cFormat{
+    font-family: "Biko-std";
+    padding:0;
+    padding-left:0;
+    margin:0 auto;
+    font-size:60%;
+    padding: 0 2%;
+}
+
+div#lFormat a{
+    text-decoration: none;
+    background:$anouLightBlue;
+    border: $lightGrey solid 1px;
+    padding:.5rem 6rem;
+    border-radius:6px;
+    color:$menuColor;
+    font-family: "Biko-std";
+    box-shadow: $menuColor 5px 4px 3px;
+    font-size:70%;
+}
 
 
 /*     NAVIGATION CSS RULES    */
@@ -53,19 +321,6 @@
 
 //------------------------------------------------------------------
 
-
-
-
-/*  apply a natural box layout model to all elements  */
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-//Hamburger button is hidden on screens larger than 65 rem or 1040px
-#hamburgerBtn { 
-    display: hidden; 
-
-} /* hide the navigation button for all screen widths. We will show it below just for small screens */
-
-@media only screen and (max-width: 999px) {
 
 // places the navigation bar at the top of the page
 nav.clearfix {
@@ -187,86 +442,6 @@ ul#primaryNav li ul a {
 }
 
 
-} /* End oF Media Query For Mobile Menu */
 
 
-
-
-
-
-
-/* Styling for the Anou Logo in the HEADER */
-
-header {
-    height:auto;
-    width:100%;
-    margin:0 auto;
-    background: $hoverColor;
-}
-.headertxt {
-    padding-top:1rem;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    h2 {
-        color:$menuColor;
-        width:90%;
-        margin: 0 5%;
-        text-align: center;
-        margin-bottom:0;
-        font-family: 'Bembo-black';
-    }
-    p {
-        width:100%;
-        padding:0 5%;
-        text-align: center;
-        font-family: 'Bembo-black';
-
-    }
-}
-div.logoContainer {
-    width:130px;
-    margin:0 auto;
-    padding-top:6rem;
-}
-img.logo {
-    background-color: none;
-    border:2px solid $lightGrey;    
-    border-radius:50%;
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
-    width:100%;
-    margin:0 auto;
-    max-width: 130px;
-    max-height: 130px; 
-    box-shadow: $menuColor 1px 2px 5px;
- 
-}
-
-
-
-
-
-/* Styling for the Dynamic Photo Div */
-
-.row {
-    display: flex;
-}
-.column {
-    flex: 33.33%;
-    padding: 1%;
-}
-
-#Photos {
-    width: 98%;
-    margin: 1% auto;
-}
-.image {
-    cursor: pointer;
-    max-width: 300px;
-    max-height: 300px;
-    height: auto;
-}
-.image:hover, .close:hover {
-    opacity: 0.7;
-}
+} //END OF MEDIA QUERY FOR @media (max-width: 699px)

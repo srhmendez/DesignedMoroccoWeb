@@ -22,7 +22,9 @@ ul#primaryNav li a {
     font-family: "Biko-black";
 
 }
-
+div.column {
+    margin:.5%;
+}
 
 /*Navigation CSS For Large Screens*/
 
@@ -90,7 +92,62 @@ div.column {
 
 /* Modal Styling */
 
-/* The Close Button */
+#user_name {
+    font-weight: bold;
+    font-size: 300%;
+}
+
+#userLink {
+    font-size: 175%;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+#userText {
+    font-size: 200%;
+    padding-right: 10%;
+    padding-top: .75%;
+}
+header {
+    height:auto;
+}
+#userHeader {
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-top: 8%;
+    border-bottom: solid 3px #e4eaf5;
+    max-width:1300px;
+    margin:0 auto;
+}
+
+#userImg {
+    float: left;
+    border-radius:50%;  
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    margin-right: 8%;
+    margin-bottom: 4%;
+}
+
+#Photos {
+    width: 100%;
+    margin: auto;
+    padding-top: 1%;
+}   
+
+#userImg {
+    border-radius:50%;  
+    height: 200px;
+    width: 200px;
+    background-position: center;
+}  
+
+#Photos {
+    width: 70%;
+    margin: auto;
+}
+ /* The Close Button */
 .close {
     position: absolute;
     top: 5px;
@@ -117,8 +174,9 @@ div.column {
 }
 #mpDiv {
     /*Foreground Container*/
-    width: 75%;
-    height: 85%;
+    width: 80%;
+    height: auto;
+    min-height:10%;
     background-color: white;
     display: flex;
     margin-left: 12%;
@@ -128,11 +186,15 @@ div.column {
 #mImg {
     height: 100%;
     width: auto;
+    margin:2% 2%;
 }
 
 #mContain {
-    margin-top: 3%;
-    flex-grow: 100;
+    margin-top: 0%;
+    padding:3% 0;
+    height:auto;
+    width:100%;
+    flex-grow: 100%;
     flex-direction: column;
 }
 
@@ -140,10 +202,10 @@ div.column {
     display: flex;
     font-weight: bold;
     border-bottom: solid 2px #e4eaf5;
-    padding-bottom: 6%;
+    padding-bottom: 1%;
 }
 
-#userName {
+#user_name {
     margin-left: 3%;
     margin-top: 2.5%;
     font-family: "Biko-black";
@@ -163,20 +225,53 @@ div.column {
 
 #content {
     padding-right: 5%;
-    height: 55%;
+    height: auto;
 }
 
 #cFormat {
     margin-left: 10%;
-    font-family:"Bembo-black"
+    font-family: "Biko-std";
+    margin-bottom:1.2rem;
+}
+div#userLink {
+    padding-top:4%;
+    margin-bottom:2.75%;
 }
 
 #link {
     border-top: solid 2px #e4eaf5;
     text-align: center;
+    padding-top:0;
+    height:auto;
 }
-
+div#link a {
+    text-decoration: none;
+    background:$anouLightBlue;
+    border: $lightGrey solid 1px;
+    padding:.3rem 6rem;
+    border-radius:6px;
+    color:$menuColor;
+    font-family: "Biko-std";
+    box-shadow: $menuColor 5px 4px 3px;
+    font-size:110%;
+}
 #lFormat {
     display: inline-block;
     margin-top: 3%;
+}
+p#tFormat {
+    font-family:"Biko-std";
+}
+div#myModal.modal {
+    padding-top:20.9%;
+}
+div#userName {
+    font-family: "Biko-black";
+    font-size:170%;
+    padding-bottom:0%;
+}
+span.close {
+    margin-top:12%; 
+    padding-top:.8%;   
+    padding-right:5.5%;
 }

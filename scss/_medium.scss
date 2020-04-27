@@ -1,6 +1,11 @@
 
+header {
+    height:auto;
+}
 
-
+div.column {
+    margin:1%;
+}
 /* Font Styling */
 
 @media only screen and (min-width: 450px) {
@@ -51,9 +56,11 @@ ul#primaryNav li a {
 #mpDiv {
     /*Foreground Container*/
     margin-top: 20%;
-    width: 100%;
-    height: 70%;
-    background-color: white;
+    width: 70%;
+    margin:0 auto;
+    margin-top:40%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
     display: flex;
     border-radius: 1px;
     flex-direction: column;
@@ -63,18 +70,60 @@ ul#primaryNav li a {
     display: flex;
     flex-direction: row;
     font-weight: bold;
-    padding-left: 7%;
+    padding-left: 0%;
     padding-top: 3%;
     border-bottom: solid 2px #e4eaf5;
+    
 }
-
-#userName {
-    padding-top: 1.75%;
+#userHeader{
+    display:block;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-top: 15%;
+    border-bottom: solid 3px #e4eaf5;
+}
+#user_name {
+    padding-top: .75%;
     padding-left: 1.75%;
+    margin-top:1.75%;
     font-family: "Biko-black";
+    text-align: left;
+    font-size:280%;
+    margin-bottom:1%;
 
 }
+#userImg {
+    display:block;
+    float: left;
+    border-radius:50%; 
+    padding:0; 
+    max-height: 200px;
+    width: 200px;
+    background-position: center;
+    margin-right: 8%;
+    margin-bottom: 4%;
+}
+#userImg img {
+    min-height: 200px;
+    min-width: 200px;
+    
+}
 
+#userLink a {
+    font-size:80%;
+}
+#userText {
+    padding-top: 0%;
+    padding-bottom:0%;
+    padding-right: 0%;
+    padding-left: 0%;
+    font-size:150%;
+    text-align:left;
+}
+#userName {
+    width:100%;
+    text-align:center;
+}
 #icon {
     max-width: 100px;
     max-height: auto;
@@ -82,9 +131,9 @@ ul#primaryNav li a {
 }
 
 #mImg {
-    padding-left: 7%;
+    padding-left: 0%;
     height: auto;
-    width: 86%;
+    width: auto;
     border-radius: 2;
     margin-top: -3%;
 }
@@ -102,9 +151,16 @@ ul#primaryNav li a {
     border-bottom: solid 2px #e4eaf5;
     padding-bottom: 4%;
 }
+div#userLink {
+    padding-top:3%;
+}
 
 #link {
     padding-top: 4%;
     text-align: center;
     padding-bottom: 4%;
+}
+span.close {
+    margin-top:42%;
+    margin-right: 20%;
 }

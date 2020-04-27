@@ -14,21 +14,25 @@
 
 <body> 
 
+<!--Forced Reload-->
+    <script>
+        window.addEventListener("resize", myFunction);
+    
+        function myFunction() {
+            location.reload()
+            //console.log("Forced reload")
+        }
+    </script>
+
 <!--Logo-->
     <header>
 
-        <!--Header Logo Below-->
-        <div class="logoContainer">
-            <img class="logo" src="images/Logo200.png">
-        </div>
-
-        <!--Header text Below-->
-        <div class="headertxt">
-            <h2>Welcome to Anou's Instagram Shop!</h2>
-            <p> Below you will find featured Morrocan artisan's works that are 
-                available for sale. If you would like 
-                to find out more about a product, please click on the image.
-            </p>
+        <!--User Information in Modal Window-->
+        <div id = "userHeader">
+            <div id="userImg"></div>
+            <div id="user_name"></div>
+            <div id="userText"></div>
+            <div id="userLink"></div>
         </div>
 
     </header>   
@@ -41,7 +45,7 @@
 
             <!--Hamburger Navigation for Small & Large Screens-->
             <button id="hamburgerBtn" onclick="toggleMenu()">
-                <span><i>&otimes;</i></span>
+                <span><i>&times;</i></span>
                 <span><i>&equiv;</i></span>
             </button>
 
@@ -65,6 +69,9 @@
 <!--Beginning of Main Section-->
 
     <main>  
+
+
+
 
 <!--Photo Div-->
    
