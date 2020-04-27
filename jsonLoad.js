@@ -93,6 +93,18 @@ var jsonObj = {
             "link": "/images/Placeholder.jpg",
             "description": "Sample description: This is photo 13",
             "shopLink": "https://www.theanou.com"
+        },
+        {
+            "title": "Photo 14",
+            "link": "/images/Placeholder.jpg",
+            "description": "Sample description: This is photo 14",
+            "shopLink": "https://www.theanou.com"
+        },
+        {
+            "title": "Photo 15",
+            "link": "/images/Placeholder.jpg",
+            "description": "Sample description: This is photo 15",
+            "shopLink": "https://www.theanou.com"
         }
     ]
 }
