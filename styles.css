@@ -651,7 +651,8 @@ img.logo {
 
   #userName {
     padding-top: 1.75%;
-    padding-left: 1.75%; }
+    padding-left: 1.75%;
+    font-family: "Biko-black"; }
 
   #icon {
     max-width: 100px;
@@ -667,7 +668,8 @@ img.logo {
 
   #title {
     margin-top: -3%;
-    text-align: center; }
+    text-align: center;
+    font-family: "Biko-black"; }
 
   #content {
     margin-top: 4%;
@@ -802,7 +804,8 @@ img.logo {
 
   #userName {
     margin-left: 3%;
-    margin-top: 2.5%; }
+    margin-top: 2.5%;
+    font-family: "Biko-black"; }
 
   #icon {
     margin-left: 10%;
@@ -818,7 +821,8 @@ img.logo {
     height: 55%; }
 
   #cFormat {
-    margin-left: 10%; }
+    margin-left: 10%;
+    font-family: "Bembo-black"; }
 
   #link {
     border-top: solid 2px #e4eaf5;
