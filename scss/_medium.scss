@@ -89,7 +89,7 @@ ul#primaryNav li a {
 }
 #user_name {
     padding-top: .75%;
-    padding-left: 1.75%;
+    padding-left: 35%;
     margin-top:1.75%;
     font-family: "Biko-black";
     text-align: left;
@@ -116,12 +116,13 @@ ul#primaryNav li a {
 
 #userLink a {
     font-size:80%;
+    width:auto;
 }
-#userText {
+div#userText {
     padding-top: 0%;
     padding-bottom:0%;
     padding-right: 0%;
-    padding-left: 0%;
+    padding-left: 35%;
     font-size:150%;
     text-align:left;
 }
@@ -158,6 +159,8 @@ ul#primaryNav li a {
 }
 div#userLink {
     padding-top:3%;
+    padding-left:35%;
+
 }
 
 #link {

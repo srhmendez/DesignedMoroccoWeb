@@ -828,7 +828,7 @@ div#userImg {
 
   #user_name {
     padding-top: .75%;
-    padding-left: 1.75%;
+    padding-left: 35%;
     margin-top: 1.75%;
     font-family: "Biko-black";
     text-align: left;
@@ -851,13 +851,14 @@ div#userImg {
     min-width: 200px; }
 
   #userLink a {
-    font-size: 80%; }
+    font-size: 80%;
+    width: auto; }
 
-  #userText {
+  div#userText {
     padding-top: 0%;
     padding-bottom: 0%;
     padding-right: 0%;
-    padding-left: 0%;
+    padding-left: 35%;
     font-size: 150%;
     text-align: left; }
 
@@ -890,7 +891,8 @@ div#userImg {
     padding-bottom: 4%; }
 
   div#userLink {
-    padding-top: 3%; }
+    padding-top: 3%;
+    padding-left: 35%; }
 
   #link {
     padding-top: 4%;
@@ -968,17 +970,21 @@ div#userImg {
   /* Modal Styling */
   #user_name {
     font-weight: bold;
-    font-size: 300%; }
+    font-size: 300%;
+    padding-left: 23%; }
 
   #userLink {
     font-size: 175%;
     padding-top: 5%;
-    padding-left: 5%; }
+    padding-left: 25%; }
 
   #userText {
-    font-size: 200%;
+    font-size: 180%;
     padding-right: 10%;
-    padding-top: .75%; }
+    padding-top: .75%;
+    padding-left: 26%;
+    margin: 0 auto;
+    width: 100%; }
 
   header {
     height: auto; }

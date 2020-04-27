@@ -1,8 +1,7 @@
-  
 var jsonObj = {
-    "userName": "Aisha Ait Issa",
-    "photoLink": "https://res.cloudinary.com/hork5h8x1/image/upload/seller111_ilkartisan_rank8_time1461865172.jpg",
-    "description": "I joined the cooperative to support my children so they can succeed in their lives.",
+    "userName": "Association Zaouia",
+    "photoLink": "https://res.cloudinary.com/hork5h8x1/image/upload/c_fill,g_center,h_225,q_85,w_300/v1583145974/seller67_ilkseller_rank0_time1583145969.jpg",
+    "description": "Association Zaouia was created for the purpose of social development in the community. This effort was led by the women of Ssi Youssef, in November of 2011. Their goal is to lift other women in the community and push them to accomplish greater things in life. ",
     "userShopLink": "https://www.theanou.com/store/111-coop-ihkf-n-ighir-bougmaz-morocco",
     "icons": [
         {
@@ -18,95 +17,113 @@ var jsonObj = {
     ],
     "photos": [
         {
-            "title": "Photo 1",
-            "link": "/images/Placeholder.jpg",
-            "description": "Sample description: This is photo 1",
-            "shopLink": "https://www.theanou.com"
+            "title": "Beni-Ourain - By Imani Rabia",
+            "link": "/images/user1.png",
+            "description": "The Beni-Ourain rug is used daily in the lives of local Morcoans. Approx. Size 7ft 4in x 4ft or 2m 23cm x 1m 23cm",
+            "shopLink": "https://www.theanou.com/product/11626-black-white-beni-ourain"
         },
         {
-            "title": "Photo 2",
-            "link": "/images/Placeholder.jpg",
-            "description": "Sample description: This is photo 2",
-            "shopLink": "https://www.theanou.com"
+            "title": "Beni-Ourain - By Imani Nazha",
+            "link": "/images/user2.png",
+            "description": "The Beni-Ourain rug is used daily in the lives of local Morcoans. Approx. Size 7ft 3in x 4ft x 1in or 2m 21cm x 1m 21cm x 3cm",
+            "shopLink": "https://www.theanou.com/product/11224-brown-black-beni-ourain"
         },
         {
-            "title": "Photo 3",
-            "link": "/images/Placeholder.jpg",
-            "description": "Sample description: This is photo 3",
-            "shopLink": "https://www.theanou.com"
+            "title": "Beni-Ourain - By Imani Nahza",
+            "link": "/images/user3.jpg",
+            "description": "The Beni-Ourain rug is used daily in the lives of local Morcoans. Approx. Size 7ft 5in x 4ft 6in x 1in or 2m 25cm x 1m 37cm x 3cm",
+            "shopLink": "https://www.theanou.com/product/9878-black-white-beni-ourain"
         },
         {
-            "title": "Photo 4",
-            "link": "/images/Placeholder.jpg",
-            "description": "Sample description: This is photo 4",
-            "shopLink": "https://www.theanou.com"
+            "title": "Beni-Ourain - By Fatima Ait Haddou",
+            "link": "/images/user4.jpg",
+            "description": "The Beni-Ourain rug is used daily in the lives of local Morcoans. Approx. Size 6ft 2in x 3ft 2in x 1in or 2m 89cm x 97cm x 3cm",
+            "shopLink": "https://www.theanou.com/product/10527-black-white-beni-ourain"
         },
         {
-            "title": "Photo 5",
-            "link": "/images/Placeholder.jpg",
-            "description": "Sample description: This is photo 5",
-            "shopLink": "https://www.theanou.com"
+            "title": "Beni-Ourain - By Imani Nahza",
+            "link": "/images/user5.jpg",
+            "description": "The Beni-Ourain rug is used daily in the lives of local Morcoans. Approx. Size 6ft 5in x 4ft 8in x 1in or 2m 96cm x 1m 41cm x 3cm",
+            "shopLink": "https://www.theanou.com/product/10526-brown-black-beni-ourain"
         },
         {
-            "title": "Photo 6",
-            "link": "/images/Placeholder.jpg",
-            "description": "Sample description: This is photo 6",
-            "shopLink": "https://www.theanou.com"
+            "title": "Beni-Ourain - By Fatima Ait Haddou",
+            "link": "/images/user6.jpg",
+            "description": "The Beni-Ourain rug is used daily in the lives of local Morcoans. Approx. Size 10ft x 3ft 8in x 1in or 3m 5cm x 1m 12cm x 3cm",
+            "shopLink": "https://www.theanou.com/product/9703-black-white-beni-ourain"
         },
         {
-            "title": "Photo 7",
-            "link": "/images/Placeholder.jpg",
-            "description": "Sample description: This is photo 7",
-            "shopLink": "https://www.theanou.com"
+            "title": "Beni-Ourain - By Fatima Ait Haddou",
+            "link": "/images/user7.jpg",
+            "description": "",
+            "shopLink": "https://www.theanou.com/product/10162-black-white-beni-ourain"
         },
         {
-            "title": "Photo 8",
-            "link": "/images/Placeholder.jpg",
-            "description": "Sample description: This is photo 8",
-            "shopLink": "https://www.theanou.com"
+            "title": "Beni-Ourain - By Fatima Elmekkaoui",
+            "link": "/images/user8.jpg",
+            "description": "The Beni-Ourain rug is used daily in the lives of local Morcoans. Approx. Size 7ft x 5ft x 1in or 2m 13cm x 2m 53cm x 3cm",
+            "shopLink": "https://www.theanou.com/product/10322-brown-black-beni-ourain"
         },
         {
-            "title": "Photo 9",
-            "link": "/images/Placeholder.jpg",
-            "description": "Sample description: This is photo 9",
-            "shopLink": "https://www.theanou.com"
+            "title": "Beni-Ourain - By Fatima Ait Haddou",
+            "link": "/images/user9.jpg",
+            "description": "The Beni-Ourain rug is used daily in the lives of local Morcoans. Approx. Size 5ft 10in x 4ft 2in x 1in or 2m 79cm x 1m 27cm x 3cm",
+            "shopLink": "https://www.theanou.com/product/10525-brown-white-beni-ourain"
         },
         {
-            "title": "Photo 10",
-            "link": "/images/Placeholder.jpg",
-            "description": "Sample description: This is photo 10",
-            "shopLink": "https://www.theanou.com"
+            "title": "Handira - By Fatima Mamouh",
+            "link": "/images/user10.jpg",
+            "description": "Handira rugs were considered to be a piece of clothing that would be worn outside. They are now used for decoration and gifted to young women about to be wed. Approx. Size 6ft 1in x 3ft 5in x 1in or 2m 86cm x 1m 5cm x 1cm",
+            "shopLink": "https://www.theanou.com/product/7729-colored-handira"
         },
         {
-            "title": "Photo 11",
-            "link": "/images/Placeholder.jpg",
-            "description": "Sample description: This is photo 11",
-            "shopLink": "https://www.theanou.com"
+            "title": "Handira - By Fatima Ait El Hajj",
+            "link": "/images/user11.jpg",
+            "description": "Handira rugs were considered to be a piece of clothing that would be worn outside. They are now used for decoration and gifted to young women about to be wed. Approx. Size 6ft 3in x 3ft 10in x 1in or 2m 90cm x 1m 17cm x 1cm",
+            "shopLink": "https://www.theanou.com/product/7733-red-yellow-handira"
         },
         {
-            "title": "Photo 12",
-            "link": "/images/Placeholder.jpg",
-            "description": "Sample description: This is photo 12",
-            "shopLink": "https://www.theanou.com"
+            "title": "Handira - By Meryam Achaoui",
+            "link": "/images/user12.jpg",
+            "description": "Handira rugs were considered to be a piece of clothing that would be worn outside. They are now used for decoration and gifted to young women about to be wed. Approx. Size 5ft 4in x 3ft or 2m 63cm x 91cm",
+            "shopLink": "https://www.theanou.com/product/9697-white-handira"
         },
         {
-            "title": "Photo 13",
-            "link": "/images/Placeholder.jpg",
-            "description": "Sample description: This is photo 13",
-            "shopLink": "https://www.theanou.com"
+            "title": "Handira - By Fatima Mamouh",
+            "link": "/images/user13.jpg",
+            "description": "Handira rugs were considered to be a piece of clothing that would be worn outside. They are now used for decoration and gifted to young women about to be wed. Approx. Size 6ft 5in x 3ft 7in x 1in or 2m 95cm x 1m 10cm x 1cm",
+            "shopLink": "https://www.theanou.com/product/6448-white-handira"
         },
         {
-            "title": "Photo 14",
-            "link": "/images/Placeholder.jpg",
-            "description": "Sample description: This is photo 14",
-            "shopLink": "https://www.theanou.com"
+            "title": "Handira - By Fatima Mamouh",
+            "link": "/images/user14.jpg",
+            "description": "Handira rugs were considered to be a piece of clothing that would be worn outside. They are now used for decoration and gifted to young women about to be wed. Approx. Size 6ft 7in x 3ft 10in x 1in or 2m x 1m 17cm x 1cm",
+            "shopLink": "https://www.theanou.com/product/6447-colored-handira"
         },
         {
-            "title": "Photo 15",
-            "link": "/images/Placeholder.jpg",
-            "description": "Sample description: This is photo 15",
-            "shopLink": "https://www.theanou.com"
-        }
+            "title": "Beni-Ourain - By Imani Rabia",
+            "link": "/images/user15.jpg",
+            "description": "The Beni-Ourain rug is used daily in the lives of local Morcoans. Approx. Size 6ft 2in x 3ft 6in x 1in or 2m 87cm x 1m 7cm x 3cm",
+            "shopLink": "https://www.theanou.com/product/10056-black-white-beni-ourain"
+        },
+        {
+            "title": "Beni-Ourain - By Imani Nazha",
+            "link": "/images/user16.jpg",
+            "description": "The Beni-Ourain rug is used daily in the lives of local Morcoans. Approx. Size 6ft 10in x 4ft 1in x 1in or 2m 8cm x 1m 25cm x 3cm",
+            "shopLink": "https://www.theanou.com/product/9879-colored-beni-ourain"
+        },
+        {
+            "title": "Beni-Ourain - By Fatima Mamouh",
+            "link": "/images/user17.jpg",
+            "description": "The Beni-Ourain rug is used daily in the lives of local Morcoans. Approx. Size 4ft 4in x 3ft 2in x 1in or 1m 33cm x 97cm x 3cm",
+            "shopLink": "https://www.theanou.com/product/9927-black-white-beni-ourain"
+        },
+        {
+            "title": "Beni-Ourain - By Naima Elmaskine",
+            "link": "/images/user18.jpg",
+            "description": "The Beni-Ourain rug is used daily in the lives of local Morcoans. Approx. Size 4ft 4in x 3ft 7in x 1in or 1m 32cm x 1m 9cm x 3cm",
+            "shopLink": "https://www.theanou.com/product/9902-black-white-beni-ourain"
+        },
     ]
 }
 
