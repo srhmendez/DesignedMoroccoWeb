@@ -15,14 +15,14 @@
 <body> 
 
 <!--Forced Reload-->
-    <script>
-        window.addEventListener("resize", myFunction);
-    
-        function myFunction() {
-            location.reload()
-            //console.log("Forced reload")
-        }
-    </script>
+<script>
+    window.addEventListener("resize", myFunction);
+
+    function myFunction() {
+        if (screen.width > 999) location.reload()
+        //console.log("Forced reload")
+    }
+</script>
 
 <!--Logo-->
     <header>
