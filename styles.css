@@ -454,7 +454,8 @@ header {
   opacity: 0.7; }
 
 div#userHeader {
-  font-family: "Biko-std"; }
+  font-family: "Biko-std";
+  padding-right: 2%; }
 
 div#userLink a {
   text-decoration: none;
