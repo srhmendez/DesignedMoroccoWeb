@@ -461,7 +461,8 @@ div#userLink a {
   border-radius: 6px;
   color: #252525;
   font-family: "Biko-std";
-  box-shadow: #d8d8d8 5px 4px 3px; }
+  box-shadow: #d8d8d8 5px 4px 3px;
+  border: #d8d8d8 0.5px solid; }
 
 div#userImg {
   box-shadow: #252525 3px 3px 8px; }
@@ -1109,7 +1110,8 @@ div#userImg {
     color: #252525;
     font-family: "Biko-std";
     box-shadow: #252525 5px 4px 3px;
-    font-size: 110%; }
+    font-size: 110%;
+    border: #d8d8d8 0.5px solid; }
 
   #lFormat {
     display: inline-block;

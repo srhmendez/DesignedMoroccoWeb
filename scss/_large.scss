@@ -254,6 +254,8 @@ div#link a {
     font-family: "Biko-std";
     box-shadow: $menuColor 5px 4px 3px;
     font-size:110%;
+    border: $lightGrey .5px solid;
+
 }
 #lFormat {
     display: inline-block;
