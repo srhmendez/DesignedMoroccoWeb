@@ -56,7 +56,7 @@ nav.clearfix {
             }
         }
         li:hover {
-            background-color:$lightGrey;
+            background-color:lighten($color: $menuColor, $amount: 10);
         }
     }
 }

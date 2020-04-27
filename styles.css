@@ -726,7 +726,7 @@ img.logo {
           font-size: 1.4rem;
           text-decoration: none; }
       nav.clearfix ul#primaryNav li:hover {
-        background-color: lightgrey; }
+        background-color: #3f3f3f; }
 
   /* Photo Div Gallery */
   div#Photos {
