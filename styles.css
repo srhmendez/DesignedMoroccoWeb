@@ -430,12 +430,14 @@ header {
 
 .row {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-around;
+  height: auto; }
 
 .column {
   flex: 33.33%;
   margin: .5%;
-  padding: 0; }
+  padding: 0;
+  height: auto; }
 
 #Photos {
   width: 98%;
@@ -747,7 +749,11 @@ div#userImg {
 
   div.column {
     margin: .5%;
-    padding: 0; }
+    padding: 0;
+    height: auto; }
+
+  div.row {
+    height: auto; }
 
   /* Font Styling */ }
 @media only screen and (min-width: 700px) and (max-width: 1000px) and (min-width: 450px) {

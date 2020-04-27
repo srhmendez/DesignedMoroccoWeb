@@ -64,12 +64,14 @@ header {
 }
 .row {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    height:auto;
 }
 .column {
     flex: 33.33%;
     margin: .5%;
     padding:0;
+    height:auto;
 
 }
 
