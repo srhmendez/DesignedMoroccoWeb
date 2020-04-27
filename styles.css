@@ -626,6 +626,9 @@ div#userImg {
     font-size: 60%;
     padding: 0 2%; }
 
+  div#lFormat {
+    margin-bottom: 2rem; }
+
   div#lFormat a {
     text-decoration: none;
     background: #a8c5f3;
@@ -635,7 +638,8 @@ div#userImg {
     color: #252525;
     font-family: "Biko-std";
     box-shadow: #252525 5px 4px 3px;
-    font-size: 70%; }
+    font-size: 70%;
+    margin-bottom: 1rem; }
 
   /*     NAVIGATION CSS RULES    */
   nav.clearfix {
