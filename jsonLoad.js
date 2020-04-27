@@ -55,7 +55,7 @@ var jsonObj = {
         {
             "title": "Beni-Ourain - By Fatima Ait Haddou",
             "link": "/images/user7.jpg",
-            "description": "",
+            "description": "The Beni-Ourain rug is used daily in the lives of local Morcoans. Approx. Size 7ft 3in x 3ft 3in x 1in or 2m 22cm x 1m x 3cm",
             "shopLink": "https://www.theanou.com/product/10162-black-white-beni-ourain"
         },
         {
