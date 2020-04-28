@@ -2,7 +2,7 @@ var jsonObj = {
     "userName": "Association Zaouia",
     "photoLink": "https://res.cloudinary.com/hork5h8x1/image/upload/c_fill,g_center,h_225,q_85,w_300/v1583145974/seller67_ilkseller_rank0_time1583145969.jpg",
     "description": "Association Zaouia was created for the purpose of social development in the community. This effort was led by the women of Ssi Youssef, in November of 2011. Their goal is to lift other women in the community and push them to accomplish greater things in life. ",
-    "userShopLink": "https://www.theanou.com/store/111-coop-ihkf-n-ighir-bougmaz-morocco",
+    "userShopLink": "https://quizzical-pike-b40ec5.netlify.app",
     "icons": [
         {
             "title": "first icon title",
